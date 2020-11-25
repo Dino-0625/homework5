@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531B48B8256A408F009F50A7 /* PieChart_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531B48B7256A408F009F50A7 /* PieChart_Detail.swift */; };
+		534D28CC2567EF6100E7C7EA /* Piechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D28CB2567EF6100E7C7EA /* Piechart.swift */; };
+		534D28CF2567F98400E7C7EA /* TimeOnCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534D28CE2567F98400E7C7EA /* TimeOnCourse.swift */; };
 		53CFF68B2567D65600B7C3A7 /* homework5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFF68A2567D65600B7C3A7 /* homework5App.swift */; };
 		53CFF68D2567D65600B7C3A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFF68C2567D65600B7C3A7 /* ContentView.swift */; };
 		53CFF68F2567D65700B7C3A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CFF68E2567D65700B7C3A7 /* Assets.xcassets */; };
 		53CFF6922567D65700B7C3A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CFF6912567D65700B7C3A7 /* Preview Assets.xcassets */; };
+		53CFF69B2567D8B700B7C3A7 /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFF69A2567D8B700B7C3A7 /* SubjectView.swift */; };
+		53CFF69E2567DECD00B7C3A7 /* SubjectEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CFF69D2567DECD00B7C3A7 /* SubjectEditor.swift */; };
+		553352D1256B8D980028715F /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553352D0256B8D980028715F /* BarChart.swift */; };
+		553352D4256BA0E10028715F /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553352D3256BA0E10028715F /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		531B48B7256A408F009F50A7 /* PieChart_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart_Detail.swift; sourceTree = "<group>"; };
+		534D28CB2567EF6100E7C7EA /* Piechart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piechart.swift; sourceTree = "<group>"; };
+		534D28CE2567F98400E7C7EA /* TimeOnCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOnCourse.swift; sourceTree = "<group>"; };
 		53CFF6872567D65600B7C3A7 /* homework5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homework5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CFF68A2567D65600B7C3A7 /* homework5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homework5App.swift; sourceTree = "<group>"; };
 		53CFF68C2567D65600B7C3A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53CFF68E2567D65700B7C3A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53CFF6912567D65700B7C3A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53CFF6932567D65700B7C3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CFF69A2567D8B700B7C3A7 /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
+		53CFF69D2567DECD00B7C3A7 /* SubjectEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectEditor.swift; sourceTree = "<group>"; };
+		553352D0256B8D980028715F /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		553352D3256BA0E10028715F /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,13 @@
 		53CFF67E2567D65600B7C3A7 = {
 			isa = PBXGroup;
 			children = (
+				553352D3256BA0E10028715F /* Main.swift */,
+				553352D0256B8D980028715F /* BarChart.swift */,
+				531B48B7256A408F009F50A7 /* PieChart_Detail.swift */,
+				534D28CE2567F98400E7C7EA /* TimeOnCourse.swift */,
+				534D28CB2567EF6100E7C7EA /* Piechart.swift */,
+				53CFF69D2567DECD00B7C3A7 /* SubjectEditor.swift */,
+				53CFF69A2567D8B700B7C3A7 /* SubjectView.swift */,
 				53CFF6892567D65600B7C3A7 /* homework5 */,
 				53CFF6882567D65600B7C3A7 /* Products */,
 			);
@@ -138,7 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553352D4256BA0E10028715F /* Main.swift in Sources */,
+				553352D1256B8D980028715F /* BarChart.swift in Sources */,
 				53CFF68D2567D65600B7C3A7 /* ContentView.swift in Sources */,
+				534D28CC2567EF6100E7C7EA /* Piechart.swift in Sources */,
+				53CFF69E2567DECD00B7C3A7 /* SubjectEditor.swift in Sources */,
+				53CFF69B2567D8B700B7C3A7 /* SubjectView.swift in Sources */,
+				531B48B8256A408F009F50A7 /* PieChart_Detail.swift in Sources */,
+				534D28CF2567F98400E7C7EA /* TimeOnCourse.swift in Sources */,
 				53CFF68B2567D65600B7C3A7 /* homework5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
